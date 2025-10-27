@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="300" height="80" role="img" aria-label="pratik">
+  <defs>
+    <!-- blue gradient -->
+    <linearGradient id="blueGrad" x1="0%" x2="100%" y1="10%" y2="90%">
+      <stop offset="0%" stop-color="#1e90ff"></stop>
+      <stop offset="60%" stop-color="#0b60d6"></stop>
+      <stop offset="100%" stop-color="#073ea6"></stop>
+    </linearGradient>
+
+    <!-- subtle glossy highlight -->
+    <linearGradient id="gloss" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.65"></stop>
+      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.12"></stop>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"></stop>
+    </linearGradient>
+
+    <!-- drop shadow -->
+    <filter id="ds" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#05204a" flood-opacity="0.28"></feDropShadow>
+    </filter>
+  </defs>
+
+  <!-- main cursive text -->
+  <text x="12" y="54" font-family="Pacifico, 'Brush Script MT', 'Segoe Script', cursive" font-size="48" font-weight="700" fill="url(#blueGrad)" stroke="#02285a" stroke-width="0.9" paint-order="stroke" filter="url(#ds)" style="letter-spacing:0.5px">
+    pratik
+  </text>
+
+  <!-- glossy overlay (same shape using text for simple highlight) -->
+  <text x="12" y="54" font-family="Pacifico, 'Brush Script MT', 'Segoe Script', cursive" font-size="48" font-weight="700" fill="url(#gloss)" stroke="none" opacity="0.65" style="letter-spacing:0.5px; mix-blend-mode:screen">
+    pratik
+  </text>
+</svg>
