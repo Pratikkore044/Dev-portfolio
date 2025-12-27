@@ -1,12 +1,99 @@
-# React + Vite
+DEV-PORTFOLIO
+A brief description of what this project does and who it's for
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
 
-Currently, two official plugins are available:
+⚡ Built with React + Vite for fast performance
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎨 Modular component-based architecture
 
-## Expanding the ESLint configuration
+🌙 Theme support using React Context
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🧩 Reusable UI components
+
+📱 Fully responsive design
+
+🖼️ Project showcase with images
+
+📬 Contact section with success modal
+
+🧭 Smooth navigation between section
+
+🧩 Component Overview
+🔹 Core Sections
+
+HeroSection – Introduction and profile highlight
+
+AboutSection – Personal summary
+
+SkillsSection – Technical skills overview
+
+ProjectsSection – Project showcase using reusable cards
+
+ContactSection – Contact form with success modal
+
+🔹 UI Components
+
+Navbar – Responsive navigation
+
+Footer – Footer with social/info links
+
+ProjectCard – Reusable project display card
+
+TextInput – Custom reusable input component
+
+SuccessModel – Confirmation modal after form submission
+
+🔹 Utilities
+
+data.js – Static project & skill data
+
+helper.js – Common helper functions
+
+ThemeContext – Theme handling using React Context API
+
+🛠️ Tech Stack
+
+Frontend: React, Vite
+
+Styling: CSS
+
+State Management: React Context
+
+Linting: ESLint
+
+Build Tool: Vite
+
+▶️ Getting Started
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/your-portfolio.git
+cd your-portfolio
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Run Development Server
+npm run dev
+
+
+Open your browser at:
+
+http://localhost:5173
+
+📦 Build for Production
+npm run build
+
+
+Preview the build:
+
+npm run preview
+
+✏️ Customization
+
+Update personal details in utils/data.js
+
+Replace images inside assets/images
+
+Modify theme logic in ThemeContext.jsx
+
+Add or remove sections via components/Sections
